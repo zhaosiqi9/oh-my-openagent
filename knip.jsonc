@@ -1353,13 +1353,11 @@
       // pre-existing at origin dev 4686e425b5: unused export(s) registerIncarnation, clearEndpoint, sessionOwner
       "packages/omo-senpi/src/components/thread/gateway/store-ownership.ts": ["registerIncarnation", "clearEndpoint", "sessionOwner"],
       // pre-existing at origin dev 4686e425b5: unused export(s) toolReceiptBegin, toolReceiptSettle, registerIncarnation, pendingCompletionArms, latestCompletionArm, closeQuestion
-      "packages/omo-senpi/src/components/thread/gateway/store-relay-ops.ts": ["toolReceiptBegin", "toolReceiptSettle", "registerIncarnation", "pendingCompletionArms", "latestCompletionArm", "closeQuestion"],
+      "packages/omo-senpi/src/components/thread/gateway/store-relay-ops.ts": ["toolReceiptBegin", "toolReceiptSettle", "toolReceiptRevise", "registerIncarnation", "pendingCompletionArms", "latestCompletionArm", "closeQuestion"],
       // pre-existing at origin dev 4686e425b5: unused export(s) sweepRetention
       "packages/omo-senpi/src/components/thread/gateway/store-retention.ts": ["sweepRetention"],
       // pre-existing at origin dev 4686e425b5: unused export(s) matcherAwaits
       "packages/omo-senpi/src/components/thread/gateway/worker-reply-matchers.test.ts": ["matcherAwaits"],
-      // pre-existing at origin dev 4686e425b5: unused export(s) THREAD_TOOL_SEARCH_GROUP
-      "packages/omo-senpi/src/components/thread/metadata.ts": ["THREAD_TOOL_SEARCH_GROUP"],
       // pre-existing at origin dev 4686e425b5: unused export(s) messageText, parseSessionLines, summarizeSessionEntries
       "packages/omo-senpi/src/components/thread/session-facts.ts": ["messageText", "parseSessionLines", "summarizeSessionEntries"],
       // pre-existing at origin dev 4686e425b5: unused export(s) THREAD_LINK_SCHEME
@@ -2622,6 +2620,7 @@
         "src/{index,cli,main}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}",
         "**/*.{test,spec}.{js,cjs,mjs,jsx,ts,cts,mts,tsx}",
         "**/*.test-d.ts",
+        "test/local-api/event-examples.ts",
         "test/local-api/support.ts",
         "test/local-api/support-windows.ts",
         "test/local-api/conformance/*.ts",
